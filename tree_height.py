@@ -37,7 +37,7 @@ def main():
     elif text[0] == "F":
         ievade = input()
         if "a" not in ievade:
-            cels = "C:\datuStrukturas\\tree-height-from-empty-kaarleenss-main\\test\\" + ievade
+            cels = "C:\datuStrukturas\\tree-height-from-empty-kaarleenss-main\test\\" + ievade
             with open(cels) as file:
                 text = file.readlines()
             n = int(text[0].replace('\n', ''))

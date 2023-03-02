@@ -11,7 +11,7 @@ def compute_height(n, parent):
 
     for i in range(n):
         if np.where(parent == i)[0].size == 0:
-            heights[i] = 1
+            heights[i] = 1 
 
     for i in range(n - 1, -1, -1):
         max_height = 0
